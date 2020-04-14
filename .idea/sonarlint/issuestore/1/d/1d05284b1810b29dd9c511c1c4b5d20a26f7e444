@@ -1,0 +1,7 @@
+
+k
+java:S1128"IRemove this unused import 'org.springframework.context.annotation.Scope'.(þè®€ÿÿÿÿÿ8˜üÛ¤”.
+Q
+java:S2441?";Make "Admin" serializable or don't store it in the session.(îÜ´“
+_
+java:S44881"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(–ÂªR
