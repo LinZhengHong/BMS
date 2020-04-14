@@ -1,0 +1,187 @@
+
+œjavascript:S2681
+"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(©„Ë¼ıÿÿÿÿ
+Xjavascript:S1481
+"7Remove the declaration of the unused 'define' variable.(©„Ë¼ıÿÿÿÿ
+Xjavascript:S1481
+"7Remove the declaration of the unused 'module' variable.(©„Ë¼ıÿÿÿÿ
+Yjavascript:S1481
+"8Remove the declaration of the unused 'exports' variable.(©„Ë¼ıÿÿÿÿ
+Ljavascript:S1117
+"+'i' is already declared in the upper scope.(©„Ë¼ıÿÿÿÿ
+œjavascript:S2681
+"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(©„Ë¼ıÿÿÿÿ
+œjavascript:S2681
+"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(©„Ë¼ıÿÿÿÿ
+Ajavascript:S878
+"!Unexpected use of comma operator.(©„Ë¼ıÿÿÿÿ
+Ljavascript:S1117
+"+'r' is already declared in the upper scope.(©„Ë¼ıÿÿÿÿ
+Ljavascript:S1117
+"+'n' is already declared in the upper scope.(©„Ë¼ıÿÿÿÿ
+’javascript:S2681
+"qThis statement will not be executed in a loop; only the first statement will be. The rest will execute only once.(©„Ë¼ıÿÿÿÿ
+Qjavascript:S1117
+"0'module' is already declared in the upper scope.(©„Ë¼ıÿÿÿÿ
+Rjavascript:S1117
+"1'exports' is already declared in the upper scope.(©„Ë¼ıÿÿÿÿ
+Qjavascript:S1117"0'module' is already declared in the upper scope.(¹Àüÿùÿÿÿÿ
+Rjavascript:S1117"1'exports' is already declared in the upper scope.(¹Àüÿùÿÿÿÿ
+Rjavascript:S1117+"1'keyword' is already declared in the upper scope.(†æˆüıÿÿÿÿ
+8javascript:S28148"'i' is already defined.(ÁÍ¶Œûÿÿÿÿ
+8javascript:S2814="'i' is already defined.(ÁÍ¶Œûÿÿÿÿ
+8javascript:S2814C"'i' is already defined.(ÁÍ¶Œûÿÿÿÿ
+8javascript:S2814R"'i' is already defined.(ÁÍ¶Œûÿÿÿÿ
+jjavascript:S1871"MThis branch's code block is the same as the block for the branch on line 139.(’şè
+jjavascript:S1871‘"MThis branch's code block is the same as the block for the branch on line 142.(Ë«Ü¡
+Rjavascript:S1117ë"0'module' is already declared in the upper scope.(Î¶æøÿÿÿÿ
+Sjavascript:S1117ë"1'exports' is already declared in the upper scope.(Î¶æøÿÿÿÿ
+Rjavascript:S1117Ò"0'module' is already declared in the upper scope.(ó¿ò³ÿÿÿÿÿ
+Sjavascript:S1117Ò"1'exports' is already declared in the upper scope.(ó¿ò³ÿÿÿÿÿ
+9javascript:S2814×"'b' is already defined.(·Ã›õıÿÿÿÿ
+9javascript:S2814è"'v' is already defined.(ùïüŒşÿÿÿÿ
+cjavascript:S4524«"AMove this "default" clause to the end of this "switch" statement.(İ–Ò˜ÿÿÿÿÿ
+Ljavascript:S1854ò"/Remove this useless assignment to variable "r".(û±ÿ
+Qjavascript:S1854õ"/Remove this useless assignment to variable "g".(ìƒÓúÿÿÿÿ
+Ljavascript:S1854ø"/Remove this useless assignment to variable "b".(à¹‹ş
+Ljavascript:S1854¨	"/Remove this useless assignment to variable "x".(Çİ„ÿ
+Kjavascript:S1854ª	"/Remove this useless assignment to variable "z".(ËÍ|
+Rjavascript:S1117"0'module' is already declared in the upper scope.(°«“üÿÿÿÿ
+Sjavascript:S1117"1'exports' is already declared in the upper scope.(°«“üÿÿÿÿ
+Pjavascript:S1117—".'func' is already declared in the upper scope.(¾Ç€èùÿÿÿÿ
+Kjavascript:S1117§".'func' is already declared in the upper scope.(´ÏÏ½
+Kjavascript:S1117Ü".'from' is already declared in the upper scope.(ÃÎ™©
+Mjavascript:S1117ë"0'module' is already declared in the upper scope.(üÈ¦
+Njavascript:S1117ë"1'exports' is already declared in the upper scope.(üÈ¦
+Rjavascript:S1117…"0'module' is already declared in the upper scope.(ë¶ßüÿÿÿÿ
+Sjavascript:S1117…"1'exports' is already declared in the upper scope.(ë¶ßüÿÿÿÿ
+Rjavascript:S1117‚"0'module' is already declared in the upper scope.(¬ëûšşÿÿÿÿ
+Sjavascript:S1117‚"1'exports' is already declared in the upper scope.(¬ëûšşÿÿÿÿ
+Mjavascript:S1117"0'module' is already declared in the upper scope.(şÀ÷Í
+Njavascript:S1117"1'exports' is already declared in the upper scope.(şÀ÷Í
+Mjavascript:S1117›"0'module' is already declared in the upper scope.(½èá
+Njavascript:S1117›"1'exports' is already declared in the upper scope.(½èá
+Mjavascript:S1117¨"0'module' is already declared in the upper scope.(¹õ°û
+Njavascript:S1117¨"1'exports' is already declared in the upper scope.(¹õ°û
+Mjavascript:S1117µ"0'module' is already declared in the upper scope.(šß”¦
+Njavascript:S1117µ"1'exports' is already declared in the upper scope.(šß”¦
+Mjavascript:S1117Â"0'module' is already declared in the upper scope.(Èµıï
+Njavascript:S1117Â"1'exports' is already declared in the upper scope.(Èµıï
+Rjavascript:S1117Ï"0'module' is already declared in the upper scope.(ì¬ï¤şÿÿÿÿ
+Sjavascript:S1117Ï"1'exports' is already declared in the upper scope.(ì¬ï¤şÿÿÿÿ
+Rjavascript:S1117Ù"0'module' is already declared in the upper scope.(¥ÄƒÆÿÿÿÿÿ
+Sjavascript:S1117Ù"1'exports' is already declared in the upper scope.(¥ÄƒÆÿÿÿÿÿ
+Mjavascript:S1117¼"0'module' is already declared in the upper scope.(Ø¾Í
+Njavascript:S1117¼"1'exports' is already declared in the upper scope.(Ø¾Í
+Rjavascript:S1117ë"0'module' is already declared in the upper scope.(÷á²ûÿÿÿÿ
+Sjavascript:S1117ë"1'exports' is already declared in the upper scope.(÷á²ûÿÿÿÿ
+Rjavascript:S1117š"0'module' is already declared in the upper scope.(µÓƒÍøÿÿÿÿ
+Sjavascript:S1117š"1'exports' is already declared in the upper scope.(µÓƒÍøÿÿÿÿ
+Rjavascript:S1117ô"0'module' is already declared in the upper scope.(ßªûÿÿÿÿÿ
+Sjavascript:S1117ô"1'exports' is already declared in the upper scope.(ßªûÿÿÿÿÿ
+Rjavascript:S1117õ"0'module' is already declared in the upper scope.(¦º½·ùÿÿÿÿ
+Sjavascript:S1117õ"1'exports' is already declared in the upper scope.(¦º½·ùÿÿÿÿ
+Mjavascript:S1117š"0'module' is already declared in the upper scope.(»Â“é
+Njavascript:S1117š"1'exports' is already declared in the upper scope.(»Â“é
+Rjavascript:S1117Æ"0'module' is already declared in the upper scope.(­Ñœôşÿÿÿÿ
+Sjavascript:S1117Æ"1'exports' is already declared in the upper scope.(­Ñœôşÿÿÿÿ
+:javascript:S2814Ë"'exports' is already defined.(÷œ€¦
+Mjavascript:S1117ó"0'module' is already declared in the upper scope.(Ê®‰Å
+Njavascript:S1117ó"1'exports' is already declared in the upper scope.(Ê®‰Å
+Mjavascript:S1117ö"0'module' is already declared in the upper scope.(•ŞµÖ
+Njavascript:S1117ö"1'exports' is already declared in the upper scope.(•ŞµÖ
+ajavascript:S4030· "?Either use this collection's contents or remove the collection.(ƒó–‡ıÿÿÿÿ
+Ujavascript:S1117€""3'animation' is already declared in the upper scope.(ÎÍÂÇùÿÿÿÿ
+Rjavascript:S1117¸%"0'module' is already declared in the upper scope.(ìâòäüÿÿÿÿ
+Sjavascript:S1117¸%"1'exports' is already declared in the upper scope.(ìâòäüÿÿÿÿ
+Rjavascript:S1117ƒ("0'module' is already declared in the upper scope.(êç€ûÿÿÿÿ
+Sjavascript:S1117ƒ("1'exports' is already declared in the upper scope.(êç€ûÿÿÿÿ
+Rjavascript:S1117‘("0'module' is already declared in the upper scope.(²©¢øÿÿÿÿ
+Sjavascript:S1117‘("1'exports' is already declared in the upper scope.(²©¢øÿÿÿÿ
+Mjavascript:S1117†)"0'module' is already declared in the upper scope.(ßØøÊ
+Njavascript:S1117†)"1'exports' is already declared in the upper scope.(ßØøÊ
+Mjavascript:S1117‚."0'module' is already declared in the upper scope.(÷ÜÒ…
+Njavascript:S1117‚."1'exports' is already declared in the upper scope.(÷ÜÒ…
+Ljavascript:S1117Î0"0'module' is already declared in the upper scope.(­Ş®j
+Mjavascript:S1117Î0"1'exports' is already declared in the upper scope.(­Ş®j
+Rjavascript:S11171"0'module' is already declared in the upper scope.(ğÒ‹“ÿÿÿÿÿ
+Sjavascript:S11171"1'exports' is already declared in the upper scope.(ğÒ‹“ÿÿÿÿÿ
+Rjavascript:S1117¦4"0'module' is already declared in the upper scope.(ÖÏ»™ıÿÿÿÿ
+Sjavascript:S1117¦4"1'exports' is already declared in the upper scope.(ÖÏ»™ıÿÿÿÿ
+Mjavascript:S1117¦7"0'module' is already declared in the upper scope.(İ·ÄÈ
+Njavascript:S1117¦7"1'exports' is already declared in the upper scope.(İ·ÄÈ
+Njavascript:S1117…=",'x1' is already declared in the upper scope.(İÛÍËÿÿÿÿÿ
+Njavascript:S1117…=",'y1' is already declared in the upper scope.(İÛÍËÿÿÿÿÿ
+Njavascript:S1117…=",'x2' is already declared in the upper scope.(İÛÍËÿÿÿÿÿ
+Njavascript:S1117…=",'y2' is already declared in the upper scope.(İÛÍËÿÿÿÿÿ
+Yjavascript:S1854†="7Remove this useless assignment to variable "textAlign".(ÍÀÃÏúÿÿÿÿ
+Mjavascript:S1117§="0'isLeft' is already declared in the upper scope.(Šéå
+Ljavascript:S1117Î>"0'module' is already declared in the upper scope.(ÌùÁ[
+Mjavascript:S1117Î>"1'exports' is already declared in the upper scope.(ÌùÁ[
+Mjavascript:S1117û>"0'module' is already declared in the upper scope.(äøú
+Njavascript:S1117û>"1'exports' is already declared in the upper scope.(äøú
+Rjavascript:S1117É?"0'module' is already declared in the upper scope.(üµ¶³úÿÿÿÿ
+Sjavascript:S1117É?"1'exports' is already declared in the upper scope.(üµ¶³úÿÿÿÿ
+:javascript:S2814ªC"'exports' is already defined.(÷œ€¦
+Mjavascript:S1117˜G"0'module' is already declared in the upper scope.(—óÜÑ
+Njavascript:S1117˜G"1'exports' is already declared in the upper scope.(—óÜÑ
+Mjavascript:S1117…H"0'module' is already declared in the upper scope.(ñ¼Ú
+Njavascript:S1117…H"1'exports' is already declared in the upper scope.(ñ¼Ú
+Mjavascript:S1117âH"0'module' is already declared in the upper scope.(êÊä¼
+Njavascript:S1117âH"1'exports' is already declared in the upper scope.(êÊä¼
+Rjavascript:S1117½I"0'module' is already declared in the upper scope.(·¤ôØøÿÿÿÿ
+Sjavascript:S1117½I"1'exports' is already declared in the upper scope.(·¤ôØøÿÿÿÿ
+Rjavascript:S1117˜K"0'module' is already declared in the upper scope.(ö¢œ’şÿÿÿÿ
+Sjavascript:S1117˜K"1'exports' is already declared in the upper scope.(ö¢œ’şÿÿÿÿ
+Mjavascript:S1117¡K"0'module' is already declared in the upper scope.(‰Çû
+Njavascript:S1117¡K"1'exports' is already declared in the upper scope.(‰Çû
+:javascript:S2814©K"'exports' is already defined.(‡ëâ—
+cjavascript:S4524ëK"AMove this "default" clause to the end of this "switch" statement.(İ–Ò˜ÿÿÿÿÿ
+Mjavascript:S1117ôL"0'module' is already declared in the upper scope.(¯Àîğ
+Njavascript:S1117ôL"1'exports' is already declared in the upper scope.(¯Àîğ
+Mjavascript:S1117ÉO"0'module' is already declared in the upper scope.(‡Ï®Ç
+Njavascript:S1117ÉO"1'exports' is already declared in the upper scope.(‡Ï®Ç
+Ljavascript:S1854²P"/Remove this useless assignment to variable "t".(ìë ı
+Qjavascript:S1854ÈP"/Remove this useless assignment to variable "s".(À¨ê‹úÿÿÿÿ
+Qjavascript:S1854ŞP"/Remove this useless assignment to variable "s".(À¨ê‹úÿÿÿÿ
+Qjavascript:S1854ôP"/Remove this useless assignment to variable "s".(À¨ê‹úÿÿÿÿ
+Mjavascript:S1117ÅQ"0'module' is already declared in the upper scope.(ˆ‹¢
+Njavascript:S1117ÅQ"1'exports' is already declared in the upper scope.(ˆ‹¢
+Rjavascript:S1117§R"0'module' is already declared in the upper scope.(„İÕàúÿÿÿÿ
+Sjavascript:S1117§R"1'exports' is already declared in the upper scope.(„İÕàúÿÿÿÿ
+Rjavascript:S1117¯R"0'module' is already declared in the upper scope.(æÎ¬¬ıÿÿÿÿ
+Sjavascript:S1117¯R"1'exports' is already declared in the upper scope.(æÎ¬¬ıÿÿÿÿ
+Rjavascript:S1117ÀR"0'module' is already declared in the upper scope.(Æ¿çüÿÿÿÿ
+Sjavascript:S1117ÀR"1'exports' is already declared in the upper scope.(Æ¿çüÿÿÿÿ
+Ajavascript:S1656ÊU"%'canvas.width' is assigned to itself.(óíñ%
+Rjavascript:S930äU"6This function expects 1 argument, but 2 were provided.(µÍã¡
+Ljavascript:S1117‹V"0'module' is already declared in the upper scope.(ò›¾L
+Mjavascript:S1117‹V"1'exports' is already declared in the upper scope.(ò›¾L
+Mjavascript:S1117×V"0'module' is already declared in the upper scope.(‚ÊÿØ
+Njavascript:S1117×V"1'exports' is already declared in the upper scope.(‚ÊÿØ
+Mjavascript:S1117ßV"0'module' is already declared in the upper scope.(–±¸Ä
+Njavascript:S1117ßV"1'exports' is already declared in the upper scope.(–±¸Ä
+Rjavascript:S1117ŸY"0'module' is already declared in the upper scope.(…ÿÆÌúÿÿÿÿ
+Sjavascript:S1117ŸY"1'exports' is already declared in the upper scope.(…ÿÆÌúÿÿÿÿ
+Rjavascript:S1117á]"0'module' is already declared in the upper scope.(¨ë›‚ùÿÿÿÿ
+Sjavascript:S1117á]"1'exports' is already declared in the upper scope.(¨ë›‚ùÿÿÿÿ
+Rjavascript:S1117ß_"0'module' is already declared in the upper scope.(ô¨Îşÿÿÿÿ
+Sjavascript:S1117ß_"1'exports' is already declared in the upper scope.(ô¨Îşÿÿÿÿ
+Rjavascript:S1117è`"0'module' is already declared in the upper scope.(˜¾½Ìşÿÿÿÿ
+Sjavascript:S1117è`"1'exports' is already declared in the upper scope.(˜¾½Ìşÿÿÿÿ
+qjavascript:S1871Üa"OThis branch's code block is the same as the block for the branch on line 12506.(§†šíûÿÿÿÿ
+qjavascript:S1871âa"OThis branch's code block is the same as the block for the branch on line 12512.(èòºóøÿÿÿÿ
+Mjavascript:S1117ªb"0'module' is already declared in the upper scope.(ÑÕÀ
+Njavascript:S1117ªb"1'exports' is already declared in the upper scope.(ÑÕÀ
+Rjavascript:S1117ñc"0'module' is already declared in the upper scope.(ò¼Š‡øÿÿÿÿ
+Sjavascript:S1117ñc"1'exports' is already declared in the upper scope.(ò¼Š‡øÿÿÿÿ
+qjavascript:S1871Œe"OThis branch's code block is the same as the block for the branch on line 12938.(§†šíûÿÿÿÿ
+qjavascript:S1871’e"OThis branch's code block is the same as the block for the branch on line 12944.(èòºóøÿÿÿÿ
+Rjavascript:S1117Ğf"0'module' is already declared in the upper scope.(úŸ†úÿÿÿÿ
+Sjavascript:S1117Ğf"1'exports' is already declared in the upper scope.(úŸ†úÿÿÿÿ
+Rjavascript:S1117äj"0'module' is already declared in the upper scope.(ïÔ­™ÿÿÿÿÿ
+Sjavascript:S1117äj"1'exports' is already declared in the upper scope.(ïÔ­™ÿÿÿÿÿ
+Qjavascript:S3782ĞF"4Change this argument to the documented type: Number.(˜ÉÔ˜
+yjavascript:S2703­"WAdd the "let", "const" or "var" keyword to this declaration of "r" to make it explicit.(ûÈ—ıûÿÿÿÿ
+yjavascript:S2703­"WAdd the "let", "const" or "var" keyword to this declaration of "b" to make it explicit.(ûÈ—ıûÿÿÿÿ
+yjavascript:S2703­"WAdd the "let", "const" or "var" keyword to this declaration of "g" to make it explicit.(ûÈ—ıûÿÿÿÿ
