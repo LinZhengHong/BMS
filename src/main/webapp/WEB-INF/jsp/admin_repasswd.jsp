@@ -72,29 +72,27 @@
                 </div>
             </c:if>
         </div>
-        <div class="col-xs-6 col-md-offset-3" style="position: relative;">
-            <div class="panel panel-primary ">
-                <div class="panel-heading">
-                    <h3 class="panel-title">密码修改</h3>
-                </div>
+        <div class="col-xs-6 col-md-offset-3 block" style="position: relative;">
                 <div class="panel-body">
                     <form method="post" action="admin_repasswd_do" class="form-inline" id="repasswd">
-                        <div class="input-group">
-                            <input type="password" id="oldPasswd" name="oldPasswd" placeholder="输入旧密码" class="form-control"
-                                   class="form-control">
-                            <input type="password" id="newPasswd" name="newPasswd" placeholder="输入新密码" class="form-control"
-                                   class="form-control">
-                            <input type="password" id="reNewPasswd" name="reNewPasswd" placeholder="再次输入新密码"
-                                   class="form-control" class="form-control">
+                        <div class="form-group">
+                            <label for="oldPasswd">输入旧密码</label>
+                            <input type="password" id="oldPasswd" name="oldPasswd" placeholder="输入旧密码" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="newPasswd">输入新密码</label>
+                            <input type="password" id="newPasswd" name="newPasswd" placeholder="输入新密码" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="reNewPasswd">再次输入新密码</label>
+                            <input type="password" id="reNewPasswd" name="reNewPasswd" placeholder="再次输入新密码"  class="form-control">
+                        </div>
                             <em id="tishi" style="color: red"></em>
                             <br/>
-                            <span>
-                                    <input type="submit" value="提交" class="btn btn-default">
-                            </span>
-                        </div>
+                        <input type="submit" value="提交" class="btn btn-primary">
+
                     </form>
                 </div>
-            </div>
         </div>
         <script>
             $(document).keyup(function () {
@@ -103,7 +101,7 @@
                 } else {
                     $("#tishi").text("");
                 }
-            })
+            });
 
             $("#repasswd").submit(function () {
                 if ($("#oldPasswd").val() == '' || $("#newPasswd").val() == '' || $("#reNewPasswd").val() == '') {

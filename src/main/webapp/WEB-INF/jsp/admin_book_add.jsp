@@ -51,51 +51,53 @@
             </ul>
         </div>
         <section class="no-padding-top">
-            <div style="position: relative;width: 60%;">
-                <form action="book_add_do.html" method="post" id="addbook">
-                    <div class="form-group">
-                        <label for="name">图书名</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="请输入书名">
-                    </div>
-                    <div class="form-group">
-                        <label for="author">作者</label>
-                        <input type="text" class="form-control" name="author" id="author" placeholder="请输入作者名">
-                    </div>
-                    <div class="form-group">
-                        <label for="publish">出版社</label>
-                        <input type="text" class="form-control" name="publish" id="publish" placeholder="请输入出版社">
-                    </div>
-                    <div class="form-group">
-                        <label for="isbn">ISBN</label>
-                        <input type="text" class="form-control" name="isbn" id="isbn" placeholder="请输入ISBN">
-                    </div>
-                    <div class="form-group">
-                        <label for="introduction">简介</label>
-                        <textarea class="form-control" rows="3" name="introduction" id="introduction"
-                                  placeholder="请输入简介"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="language">语言</label>
-                        <input type="text" class="form-control" name="language" id="language" placeholder="请输入语言">
-                    </div>
-                    <div class="form-group">
-                        <label for="price">价格</label>
-                        <input type="text" class="form-control" name="price" id="price" placeholder="请输入价格">
-                    </div>
-                    <div class="form-group">
-                        <label for="pubstr">出版日期</label>
-                        <input type="date" class="form-control" name="pubstr" id="pubstr" placeholder="请输入出版日期">
-                    </div>
-                    <div class="form-group">
-                        <label for="classId">分类号</label>
-                        <input type="text" class="form-control" name="classId" id="classId" placeholder="请输入分类号">
-                    </div>
-                    <div class="form-group">
-                        <label for="number">数量</label>
-                        <input type="text" class="form-control" name="number" id="number" placeholder="请输入图书数量">
-                    </div>
-                    <input type="submit" value="添加" class="btn btn-success btn-sm text-left">
-                </form>
+            <div class="col-xs-6 col-md-offset-3 block" style="position: relative;">
+                <div class="panel-body">
+                    <form action="book_add_do.html" method="post" id="addbook">
+                        <div class="form-group">
+                            <label for="name">图书名</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="请输入书名">
+                        </div>
+                        <div class="form-group">
+                            <label for="author">作者</label>
+                            <input type="text" class="form-control" name="author" id="author" placeholder="请输入作者名">
+                        </div>
+                        <div class="form-group">
+                            <label for="publish">出版社</label>
+                            <input type="text" class="form-control" name="publish" id="publish" placeholder="请输入出版社">
+                        </div>
+                        <div class="form-group">
+                            <label for="isbn">ISBN</label>
+                            <input type="text" class="form-control" name="isbn" id="isbn" placeholder="请输入ISBN">
+                        </div>
+                        <div class="form-group">
+                            <label for="introduction">简介</label>
+                            <textarea class="form-control" rows="3" name="introduction" id="introduction"
+                                      placeholder="请输入简介"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="language">语言</label>
+                            <input type="text" class="form-control" name="language" id="language" placeholder="请输入语言">
+                        </div>
+                        <div class="form-group">
+                            <label for="price">价格</label>
+                            <input type="text" class="form-control" name="price" id="price" placeholder="请输入价格">
+                        </div>
+                        <div class="form-group">
+                            <label for="pubstr">出版日期</label>
+                            <input type="date" class="form-control" name="pubstr" id="pubstr" placeholder="请输入出版日期">
+                        </div>
+                        <div class="form-group">
+                            <label for="classId">分类号</label>
+                            <input type="text" class="form-control" name="classId" id="classId" placeholder="请输入分类号">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">数量</label>
+                            <input type="text" class="form-control" name="number" id="number" placeholder="请输入图书数量">
+                        </div>
+                        <input type="submit" value="添加" class="btn btn-primary">
+                    </form>
+                </div>
             </div>
         </section>
         <jsp:include page="common_footer.jsp"/>

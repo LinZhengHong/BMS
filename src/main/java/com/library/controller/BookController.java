@@ -1,5 +1,6 @@
 package com.library.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.library.bean.Book;
 import com.library.bean.Lend;
 import com.library.bean.ReaderCard;
@@ -39,12 +40,26 @@ public class BookController {
         }
     }
 
-    @RequestMapping("/querybook.html")
+    /*@RequestMapping("/querybook.html")
     public ModelAndView queryBookDo(String searchWord) {
         if (bookService.matchBook(searchWord)) {
             ArrayList<Book> books = bookService.queryBook(searchWord);
             ModelAndView modelAndView = new ModelAndView("admin_books");
             modelAndView.addObject("books", books);
+            return modelAndView;
+        } else {
+            return new ModelAndView("admin_books", "error", "没有匹配的图书");
+        }
+    }*/
+
+    @RequestMapping("/querybook.html")
+    public ModelAndView queryBookDo(String searchWord,
+                                    @RequestParam(value="pageNum",defaultValue="1") Integer pageNum,
+                                    @RequestParam(value="pageSize",defaultValue="6") Integer pageSize) {
+        if (bookService.matchBook(searchWord)) {
+            PageInfo<Book> pageInfo=bookService.getqueryBooks(searchWord, pageNum, pageSize);
+            ModelAndView modelAndView = new ModelAndView("admin_books");
+            modelAndView.addObject("pageInfo", pageInfo);
             return modelAndView;
         } else {
             return new ModelAndView("admin_books", "error", "没有匹配的图书");
@@ -63,11 +78,20 @@ public class BookController {
         }
     }
 
-    @RequestMapping("/admin_books.html")
+    /*@RequestMapping("/admin_books.html")
     public ModelAndView adminBooks() {
         ArrayList<Book> books = bookService.getAllBooks();
         ModelAndView modelAndView = new ModelAndView("admin_books");
         modelAndView.addObject("books", books);
+        return modelAndView;
+    }*/
+
+    @RequestMapping("/admin_books.html")
+    public ModelAndView adminBooks(@RequestParam(value="pageNum",defaultValue="1") Integer pageNum,
+                                   @RequestParam(value="pageSize",defaultValue="6")Integer pageSize) {
+        PageInfo<Book> pageInfo=bookService.getPageBooks(pageNum,pageSize);
+        ModelAndView modelAndView = new ModelAndView("admin_books");
+        modelAndView.addObject("pageInfo", pageInfo);
         return modelAndView;
     }
 

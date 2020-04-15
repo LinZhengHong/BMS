@@ -78,7 +78,7 @@
             </div>
 
 
-            <div class="panel panel-default" style="position:relative;width: 90%;">
+            <div class="panel panel-default block" style="position:relative;">
                 <div class="panel-body">
                     <table class="table table-hover" >
                         <thead>

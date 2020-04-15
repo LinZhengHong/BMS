@@ -41,14 +41,14 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
             <div class="container-fluid">
-                <h2 class="h5 no-margin-bottom">Reader</h2>
+                <h2 class="h5 no-margin-bottom">我的借还信息</h2>
             </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Reader</a></li>
-                <li class="breadcrumb-item active">Tables        </li>
+                <li class="breadcrumb-item"><a href="index.html">我的管理</a></li>
+                <li class="breadcrumb-item active">我的借还信息</li>
             </ul>
         </div>
         <section class="no-padding-top">
@@ -73,12 +73,7 @@
                 </c:if>
             </div>
 
-            <div class="panel panel-default" style="width: 90%;margin-left: 5%;margin-top: 5%">
-                <div class="panel-heading">
-                    <h3 class="panel-title">
-                        我的借还日志
-                    </h3>
-                </div>
+            <div class="panel panel-default block" style="width: 90%;margin-left: 5%;margin-top: 5%">
                 <div class="panel-body">
                     <table class="table table-hover">
                         <thead>

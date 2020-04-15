@@ -669,10 +669,6 @@ Y
 )src/main/resources/MyBatis/readerCard.xml,7\1\71d32703ac6ee1104dc07c20f266a3b524bff591
 Y
 )src/main/resources/MyBatis/readerInfo.xml,b\4\b48ca0387d224fe64a7361c4da1e51e8bbdcdfca
-S
-#src/main/resources/book-context.xml,d\c\dc51921ed5498e1ce81962eeb96f113328dda396
-P
- src/main/resources/db.properties,7\7\779348f654a78c25c1b2a58c09d119b35347dc0d
 \
 ,src/main/webapp/static/css/bootstrap.min.css,5\8\587666439e686d7fda1b2133c7e4ef2c53a2bb95
 _

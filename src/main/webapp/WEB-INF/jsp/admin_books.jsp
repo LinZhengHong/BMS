@@ -109,7 +109,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <c:forEach items="${books}" var="book">
+                        <c:forEach items="${pageInfo.list}" var="book" step="1">
                             <tr>
                                 <td><c:out value="${book.name}"></c:out></td>
                                 <td><c:out value="${book.author}"></c:out></td>
@@ -126,6 +126,42 @@
                         </c:forEach>
                         </tbody>
                     </table>
+                    <div class="mt-3">
+                        <%--分页--%>
+                        <nav class="Page navigation ">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="admin_books.html?pageNum=1" tabindex="-1" aria-disabled="true">首页</a>
+                                </li>
+                                <c:if test="${pageInfo.hasPreviousPage}">
+                                    <li class="page-item">
+                                        <a href="admin_books.html?pageNum=${pageInfo.prePage}" class="page-link">上一页</a>
+                                    </li>
+                                </c:if>
+                                <c:forEach items="${pageInfo.navigatepageNums }" var="num" >
+                                    <c:if test="${num==pageInfo.pageNum}">
+                                        <li class="page-item">
+                                            <a href="admin_books.html?pageNum=${num}" class="page-link">${num}</a>
+                                        </li>
+                                    </c:if>
+                                    <c:if test="${num!=pageInfo.pageNum}">
+                                        <li class="page-item">
+                                            <a href="admin_books.html?pageNum=${num}" class="page-link">${num}</a>
+                                        </li>
+                                    </c:if>
+                                </c:forEach>
+
+                                <c:if test="${pageInfo.hasNextPage }">
+                                    <li class="page-item">
+                                        <a href="admin_books.html?pageNum=${pageInfo.nextPage }" class="page-link">下一页</a>
+                                    </li>
+                                </c:if>
+                                <li class="page-item">
+                                    <a href="admin_books.html?pageNum=${pageInfo.pages}" class="page-link">末页</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </section>

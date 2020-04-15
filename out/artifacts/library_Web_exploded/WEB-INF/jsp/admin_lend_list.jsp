@@ -72,7 +72,7 @@
                     </div>
                 </c:if>
             </div>
-            <div class="panel panel-default" style="width: 90%;">
+            <div class="panel panel-default block">
                 <div class="panel-body">
                     <table class="table table-hover">
                         <thead>
@@ -88,8 +88,8 @@
                         <tbody>
                         <c:forEach items="${list}" var="alog">
                             <tr>
-                                <td class="text-center"><c:out value="${alog.ser_num}"></c:out></td>
-                                <td class="text-center"><c:out value="${alog.bookId}"></c:out></td>
+                                <td><c:out value="${alog.ser_num}"></c:out></td>
+                                <td><c:out value="${alog.bookId}"></c:out></td>
                                 <td><c:out value="${alog.readerId}"></c:out></td>
                                 <td><c:out value="${alog.lendDate}"></c:out></td>
                                 <td><c:out value="${alog.backDate}"></c:out></td>

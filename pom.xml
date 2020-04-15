@@ -79,6 +79,12 @@
             <artifactId>mybatis</artifactId>
             <version>3.4.1</version>
         </dependency>
+        <!--PageHelper-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>4.1.6</version>
+        </dependency>
     </dependencies>
 
     <build>

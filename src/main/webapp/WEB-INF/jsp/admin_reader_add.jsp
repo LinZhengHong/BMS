@@ -52,7 +52,7 @@
         </div>
         <section class="no-padding-top">
 
-            <div class="col-xs-6 col-md-offset-3" style="position: relative;width: 60%">
+            <div class="col-xs-6 col-md-offset-3 block" style="position: relative;">
                 <div class="panel panel-primary">
                     <div class="panel-body">
                         <form action="reader_add_do.html" method="post" id="readeredit" >
@@ -80,7 +80,7 @@
                                 <label for="phone">电话</label>
                                 <input type="text" class="form-control" name="phone" id="phone"  >
                             </div>
-                            <input type="submit" value="添加" class="btn btn-success btn-sm text-left">
+                            <input type="submit" value="添加" class="btn btn-primary">
                             <script>
                                 function mySubmit(flag){
                                     return flag;

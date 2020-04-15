@@ -40,24 +40,18 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
             <div class="container-fluid">
-                <h2 class="h5 no-margin-bottom">Reader</h2>
+                <h2 class="h5 no-margin-bottom">我的信息</h2>
             </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Reader</a></li>
-                <li class="breadcrumb-item active">Tables        </li>
+                <li class="breadcrumb-item"><a href="index.html">我的管理</a></li>
+                <li class="breadcrumb-item active">个人信息</li>
             </ul>
         </div>
         <section class="no-padding-top">
-            <div class="col-xs-5 col-md-offset-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">
-                            信息修改
-                        </h3>
-                    </div>
+            <div class="col-xs-5 col-md-offset-3 block">
                     <div class="panel-body">
                         <form action="reader_edit_do_r.html" method="post" id="edit" >
                             <div class="input-group">
@@ -85,7 +79,7 @@
                                 <input type="text" class="form-control" name="phone" id="phone"  value="${readerinfo.phone}" >
                             </div>
                             <br/>
-                            <input type="submit" value="确定" class="btn btn-success btn-sm" class="text-left">
+                            <input type="submit" value="确定" class="btn btn-primary">
                             <script>
                                 $("#edit").submit(function () {
                                     if($("#name").val()==''||$("#sex").val()==''||$("#birth").val()==''||$("#address").val()==''||$("#phone").val()==''){
@@ -96,7 +90,6 @@
                             </script>
                         </form>
                     </div>
-                </div>
             </div>
         </section>
         <jsp:include page="common_footer.jsp"/>
