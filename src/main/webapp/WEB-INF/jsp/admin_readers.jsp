@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--添加jstl自带的格式化标签--%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -99,7 +101,7 @@
                                 <td><c:out value="${reader.readerId}"></c:out></td>
                                 <td><c:out value="${reader.name}"></c:out></td>
                                 <td><c:out value="${reader.sex}"></c:out></td>
-                                <td><c:out value="${reader.birth}"></c:out></td>
+                                <td><fmt:formatDate value="${reader.birth}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td><c:out value="${reader.address}"></c:out></td>
                                 <td><c:out value="${reader.phone}"></c:out></td>
                                 <td><a href="reader_edit.html?readerId=<c:out value="${reader.readerId}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>

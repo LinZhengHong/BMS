@@ -1,7 +1,8 @@
 
-p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔáŠöşÿÿÿÿ8½á—.
-p	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÇ¿±ùÿÿÿÿ8½á—.
-E
-java:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½á—.
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÇ¿±ùÿÿÿÿ8ïŸê—.
+p	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔáŠöşÿÿÿÿ8ïŸê—.
 k
-java:S1128	"IRemove this unused import 'org.springframework.context.annotation.Scope'.(şè®€ÿÿÿÿÿ8ä·Ãá—.
+java:S1128
+"IRemove this unused import 'org.springframework.context.annotation.Scope'.(şè®€ÿÿÿÿÿ8ä·Ãá—.
+E
+java:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½á—.

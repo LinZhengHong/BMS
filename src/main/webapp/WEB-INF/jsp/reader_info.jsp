@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -41,14 +42,14 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
             <div class="container-fluid">
-                <h2 class="h5 no-margin-bottom">Reader</h2>
+                <h2 class="h5 no-margin-bottom">我的信息</h2>
             </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Reader</a></li>
-                <li class="breadcrumb-item active">Tables        </li>
+                <li class="breadcrumb-item"><a href="index.html">我的管理</a></li>
+                <li class="breadcrumb-item active">我的信息</li>
             </ul>
         </div>
         <section class="no-padding-top">
@@ -70,15 +71,11 @@
                         ${error}
                 </div>
             </c:if>
-            <div class="col-xs-5 col-md-offset-3">
+            <div class="col-xs-5 col-md-offset-3 block">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">
-                            我的信息
-                        </h3>
-                    </div>
                     <div class="panel-body">
                         <table class="table table-hover">
+                            <tbody>
                             <tr>
                                 <th width="20%">读者证号</th>
                                 <td>${readerinfo.readerId}</td>
@@ -93,7 +90,7 @@
                             </tr>
                             <tr>
                                 <th>生日</th>
-                                <td>${readerinfo.birth}</td>
+                                <td><fmt:formatDate value="${readerinfo.birth}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                             </tr>
                             <tr>
                                 <th>地址</th>
@@ -106,7 +103,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <a class="btn btn-primary btn-sm" href="reader_info_edit.html" role="button">修改</a>
+                    <a class="btn btn-primary" href="reader_info_edit.html" role="button">修改</a>
                 </div>
             </div>
 

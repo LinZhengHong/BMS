@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -88,8 +89,8 @@
                         <c:forEach items="${list}" var="alog">
                             <tr>
                                 <td><c:out value="${alog.bookId}"></c:out></td>
-                                <td><c:out value="${alog.lendDate}"></c:out></td>
-                                <td><c:out value="${alog.backDate}"></c:out></td>
+                                <td><fmt:formatDate value="${alog.lendDate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
+                                <td><fmt:formatDate value="${alog.backDate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <c:if test="${empty alog.backDate}">
                                     <td>未还</td>
                                 </c:if>

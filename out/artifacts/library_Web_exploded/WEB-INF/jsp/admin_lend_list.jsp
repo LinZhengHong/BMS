@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--添加jstl自带的格式化标签--%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -91,8 +93,9 @@
                                 <td><c:out value="${alog.ser_num}"></c:out></td>
                                 <td><c:out value="${alog.bookId}"></c:out></td>
                                 <td><c:out value="${alog.readerId}"></c:out></td>
-                                <td><c:out value="${alog.lendDate}"></c:out></td>
-                                <td><c:out value="${alog.backDate}"></c:out></td>
+                                <%--对于需要格式化时间--%>
+                                <td><fmt:formatDate value="${alog.lendDate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
+                                <td><fmt:formatDate value="${alog.backDate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td>
                                     <a href="deletelend.html?serNum=<c:out value='${alog.ser_num}'></c:out>">
                                         <c:if test="${!empty alog.backDate}">

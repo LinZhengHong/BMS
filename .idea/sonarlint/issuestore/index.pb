@@ -1021,3 +1021,9 @@ k
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ;
 library.iml,9\d\9d5c6012933103b157c82fbf025c3222f4763ead
+q
+A.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml,9\0\90d3401ce9398ed29b5e92fcc4da95eb545bd84f
+q
+A.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml,3\e\3ea01ddcb02ad5b5b05bafdf73cd0c8d497ce1cd
+S
+#src/main/resources/book-context.xml,d\c\dc51921ed5498e1ce81962eeb96f113328dda396
