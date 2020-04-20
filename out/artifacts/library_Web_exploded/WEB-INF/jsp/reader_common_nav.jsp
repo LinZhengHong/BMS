@@ -10,7 +10,7 @@
     <!-- Sidebar Header-->
     <div class="sidebar-header d-flex align-items-center">
         <%--            管理员头像--%>
-        <div class="avatar"><img src="img/avatar-6.jpg" alt="..." class="img-fluid rounded-circle"></div>
+        <div class="avatar"><img src="${pageContext.request.contextPath}/static/img/adminhead.jpg" alt="..." class="img-fluid rounded-circle"></div>
         <div class="title">
             <h1 class="h5">${readercard.name}, 已登录</h1>
             <p>用户</p>

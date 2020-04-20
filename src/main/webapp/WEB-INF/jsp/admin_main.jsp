@@ -18,6 +18,7 @@
     <script src="${pageContext.request.contextPath}/static/vendor/jquery-validation/jquery.validate.min.js"></script>
     <script src="${pageContext.request.contextPath}/static/js/front.js"></script>
 
+
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
@@ -32,6 +33,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/img/favicon.ico">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/LoginAnime03.css">
 </head>
 <body>
 
@@ -46,15 +48,22 @@
                     <h2 class="h5 no-margin-bottom">Home</h2>
                 </div>
             </div>
-            <!-- Breadcrumb-->
-            <div class="container-fluid">
-                <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Tables        </li>
-                </ul>
-            </div>
             <section class="no-padding-top">
-                    Hello AdminMainPage
+                <%--在这里添加内容--%>
+                <div class="amian">
+                    <main>
+                        <glider>
+                            <grid life="2,6,7,8,9"></grid>
+                            <grid life="1,3,5,6,8"></grid>
+                            <grid life="3,4,6,8,9"></grid>
+                            <grid life="1,5,6,7,8"></grid>
+                        </glider>
+                        <p>
+                            <!--想要什么内容在这里加-->
+                            R . I . P
+                        </p>
+                    </main>
+                </div>
             </section>
             <jsp:include page="common_footer.jsp"/>
         </div>
@@ -90,6 +99,11 @@
         })
     </script>
 </c:if>
+
+
+<script src="${pageContext.request.contextPath}/static/js/anime.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/LoginAnime03.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
 
 </body>
 </html>

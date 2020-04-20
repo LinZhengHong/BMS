@@ -71,7 +71,7 @@
                         ${error}
                 </div>
             </c:if>
-            <div class="col-xs-5 col-md-offset-3">
+            <div class="col-xs-5 col-md-offset-3 block">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <table class="table table-hover">
