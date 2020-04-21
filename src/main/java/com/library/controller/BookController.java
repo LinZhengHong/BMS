@@ -7,14 +7,19 @@ import com.library.bean.ReaderCard;
 import com.library.service.BookService;
 import com.library.service.LendService;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.lang.reflect.Method;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -23,6 +28,7 @@ import java.util.Date;
 /**
  * @author LinZhenHong
  */
+@Api(value = "BookController")
 @Controller
 public class BookController {
     @Autowired
@@ -52,6 +58,13 @@ public class BookController {
         }
     }*/
 
+    @ApiOperation(value = "根据searchWord查询书籍",notes = "需要传searchWord",httpMethod = "GET")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "pageNum", value = "页码",required = true, dataType = "int"),
+            @ApiImplicitParam(name = "pageSize", value = "页面显示的数量", required = true, dataType = "int"),
+            @ApiImplicitParam(name = "searchWorld", value = "搜索词", required = true, dataType = "int"),
+            @ApiImplicitParam(name = "pageInfo", value = "分页对象",required = false)
+    })
     @RequestMapping("/querybook.html")
     public ModelAndView queryBookDo(String searchWord,
                                     @RequestParam(value="pageNum",defaultValue="1") Integer pageNum,
@@ -66,6 +79,7 @@ public class BookController {
         }
     }
 
+    @ApiOperation(value = "读者根据searchWord查询图书",notes = "需要传searchWord",httpMethod = "GET")
     @RequestMapping("/reader_querybook_do.html")
     public ModelAndView readerQueryBookDo(String searchWord) {
         if (bookService.matchBook(searchWord)) {
@@ -86,6 +100,7 @@ public class BookController {
         return modelAndView;
     }*/
 
+    @ApiOperation(value = "查询所有图书",notes = "查询的图书具有分页功能",httpMethod = "GET")
     @RequestMapping("/admin_books.html")
     public ModelAndView adminBooks(@RequestParam(value="pageNum",defaultValue="1") Integer pageNum,
                                    @RequestParam(value="pageSize",defaultValue="6")Integer pageSize) {
@@ -95,6 +110,7 @@ public class BookController {
         return modelAndView;
     }
 
+    @ApiOperation(value = "添加图书",notes = "添加图书",httpMethod = "GET")
     @RequestMapping("/book_add.html")
     public ModelAndView addBook() {
         return new ModelAndView("admin_book_add");

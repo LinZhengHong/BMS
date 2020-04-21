@@ -5,6 +5,7 @@ import com.library.bean.ReaderInfo;
 import com.library.service.LoginService;
 import com.library.service.ReaderCardService;
 import com.library.service.ReaderInfoService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -21,6 +22,7 @@ import java.util.Date;
 /**
  * @author LinZhenHong
  */
+@Api(value = "ReaderController")
 @Controller
 public class ReaderController {
     @Autowired

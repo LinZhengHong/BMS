@@ -3,8 +3,8 @@ package com.library.controller;
 import com.library.bean.Admin;
 import com.library.bean.ReaderCard;
 import com.library.service.LoginService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -19,6 +19,7 @@ import java.util.HashMap;
 /**
  * @author LinZhenHong
  */
+@Api(value = "LoginController")
 @Controller
 public class LoginController {
 
@@ -133,7 +134,9 @@ public class LoginController {
         }
     }
 
-    //配置404页面
+    /**
+     * 配置404页面
+     */
     @RequestMapping("*")
     public String notFind() {
         return "404";
