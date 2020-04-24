@@ -1611,7 +1611,8 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 }
 
 .login-page .form-holder .info {
-  background: rgba(219, 101, 116, 0.95);
+  /*background: rgba(219, 101, 116, 0.95);*/
+  background: rgba(219, 101, 116, 0.64);
   color: #fff;
 }
 
@@ -1625,7 +1626,8 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 }
 
 .login-page .form-holder .form {
-  background: #2d3035;
+  /*background: #2d3035;*/
+  background: rgba(45, 48, 53, 0.6);
 }
 
 .login-page .form-holder .form .form-group {

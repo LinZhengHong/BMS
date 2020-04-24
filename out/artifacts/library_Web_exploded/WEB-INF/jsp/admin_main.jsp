@@ -19,6 +19,7 @@
     <script src="${pageContext.request.contextPath}/static/js/front.js"></script>
 
 
+
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
@@ -33,7 +34,10 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/img/favicon.ico">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/LoginAnime03.css">
+    <%--<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/LoginAnime03.css">--%>
+    <%--font Awesome--%>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
+    <%--<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/ToroBusStop.css">--%>
 </head>
 <body>
 
@@ -48,9 +52,9 @@
                     <h2 class="h5 no-margin-bottom">Home</h2>
                 </div>
             </div>
-            <section class="no-padding-top">
+            <section class="no-padding-top no-padding-bottom mt-5">
                 <%--在这里添加内容--%>
-                <div class="amian">
+                <%--<div class="amian">
                     <main>
                         <glider>
                             <grid life="2,6,7,8,9"></grid>
@@ -63,7 +67,63 @@
                             R . I . P
                         </p>
                     </main>
-                </div>
+                </div>--%>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="statistic-block block">
+                                    <div class="progress-details d-flex align-items-end justify-content-between">
+                                        <div class="title">
+                                            <div class="icon"><i class="icon-user-1"></i></div><strong>新读者</strong>
+                                        </div>
+                                        <div class="number dashtext-1">27</div>
+                                    </div>
+                                    <div class="progress progress-template">
+                                        <div role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="statistic-block block">
+                                    <div class="progress-details d-flex align-items-end justify-content-between">
+                                        <div class="title">
+                                            <div class="icon"><i class="icon-contract"></i></div><strong>活跃度</strong>
+                                        </div>
+                                        <div class="number dashtext-2">375</div>
+                                    </div>
+                                    <div class="progress progress-template">
+                                        <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="statistic-block block">
+                                    <div class="progress-details d-flex align-items-end justify-content-between">
+                                        <div class="title">
+                                            <div class="icon"><i class="icon-paper-and-pencil"></i></div><strong>浏览量</strong>
+                                        </div>
+                                        <div class="number dashtext-3">140</div>
+                                    </div>
+                                    <div class="progress progress-template">
+                                        <div role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="statistic-block block">
+                                    <div class="progress-details d-flex align-items-end justify-content-between">
+                                        <div class="title">
+                                            <div class="icon"><i class="icon-writing-whiteboard"></i></div><strong>新增借书量</strong>
+                                        </div>
+                                        <div class="number dashtext-4">41</div>
+                                    </div>
+                                    <div class="progress progress-template">
+                                        <div role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </section>
             <jsp:include page="common_footer.jsp"/>
         </div>
@@ -101,9 +161,11 @@
 </c:if>
 
 
-<script src="${pageContext.request.contextPath}/static/js/anime.min.js"></script>
-<script src="${pageContext.request.contextPath}/static/js/LoginAnime03.js"></script>
-<script src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
+<%--<script src="${pageContext.request.contextPath}/static/js/anime.min.js"></script>--%>
+<%--<script src="${pageContext.request.contextPath}/static/js/LoginAnime03.js"></script>--%>
+<%--<script src="${pageContext.request.contextPath}/static/js/ToroBusStop.js"></script>
+<script src="https://cdn.bootcss.com/gsap/3.2.6/gsap.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>--%>
 
 </body>
 </html>

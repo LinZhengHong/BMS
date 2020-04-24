@@ -1,7 +1,9 @@
 
-p	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔáŠöşÿÿÿÿ8•Ö®‹™.
+p	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔáŠöşÿÿÿÿ8•Ö®‹™.
+p	java:S100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÇ¿±ùÿÿÿÿ8•Ö®‹™.
+r
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8‘Äàì™.
 E
-java:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•Ö®‹™.
-p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÇ¿±ùÿÿÿÿ8•Ö®‹™.
-T
-java:S1128	"7Remove this unused import 'io.swagger.annotations.Api'.(·¦°Î8•şÉ™.
+java:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•Ö®‹™.
+W
+java:S1128"5Remove this unused import 'java.lang.reflect.Method'.(Í“¯äüÿÿÿÿ8¼øÚì™.

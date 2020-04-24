@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/img/favicon.ico">
+    <%--font Awesome--%>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
 </head>
 <body>
 

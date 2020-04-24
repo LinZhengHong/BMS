@@ -1067,3 +1067,7 @@ z
 J.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml,6\8\68dfcb130a8e9182a7365be22be892453f38da68
 [
 +src/main/webapp/static/css/LoginAnime03.css,8\a\8a9485c6c4756a331af1d37822bfb52fb0c7b8d5
+g
+7src/main/java/com/library/controller/SwaggerConfig.java,c\b\cb15c773e4b6ab3aba7e1c488dfcc0d96bdc4115
+_
+/src/main/webapp/static/css/font-awesome.min.css,f\b\fba8c1a712d6693439c3dce299abef1987f5eadb

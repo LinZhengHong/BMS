@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/img/favicon.ico">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/particleVisual.css">
 </head>
 <body>
 <c:if test="${!empty error}">
@@ -41,6 +42,10 @@
 </c:if>
 
 <div class="login-page" id="login">
+
+    <%--login页面背景动态化--%>
+    <canvas id="canvas"></canvas>
+
     <div class="container d-flex align-items-center">
         <div class="form-holder has-shadow">
             <div class="row">
@@ -51,7 +56,7 @@
                             <div class="logo">
                                 <h1>图书预约管理系统</h1>
                             </div>
-                            <p>Book reservation Management System</p>
+                            <p>Book Reservation Management System</p>
                         </div>
                     </div>
                 </div>
@@ -162,5 +167,8 @@
     </script>
 </div>
 
+<script src="${pageContext.request.contextPath}/static/js/particlVisual.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/anime.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
 </body>
 </html>

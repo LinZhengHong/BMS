@@ -14,10 +14,10 @@
                 <div class="brand-text brand-big visible text-uppercase"><strong class="text-primary">图书预约管理系统 </strong><strong>System</strong></div>
                 <div class="brand-text brand-sm"><strong class="text-primary">B</strong><strong>M</strong><strong>S</strong></div></a>
                 <!-- Sidebar Toggle Btn-->
-                <button class="sidebar-toggle"><%--<i class="fa fa-long-arrow-left"></i>--%></button>
+                <button class="sidebar-toggle"><i class="fa fa-reply-all" aria-hidden="true"></i></button>
             </div>
             <div class="right-menu list-inline no-margin-bottom">
-                <div class="list-inline-item"><a href="#" class="search-open nav-link"><i class="icon-magnifying-glass-browser"></i></a></div>
+                <div class="list-inline-item"><a href="#" class="search-open nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i></a></div>
 
                 <!-- Log out               -->
                 <div class="list-inline-item logout">
