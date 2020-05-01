@@ -53,21 +53,6 @@
                 </div>
             </div>
             <section class="no-padding-top no-padding-bottom mt-5">
-                <%--在这里添加内容--%>
-                <%--<div class="amian">
-                    <main>
-                        <glider>
-                            <grid life="2,6,7,8,9"></grid>
-                            <grid life="1,3,5,6,8"></grid>
-                            <grid life="3,4,6,8,9"></grid>
-                            <grid life="1,5,6,7,8"></grid>
-                        </glider>
-                        <p>
-                            <!--想要什么内容在这里加-->
-                            R . I . P
-                        </p>
-                    </main>
-                </div>--%>
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-3 col-sm-6">

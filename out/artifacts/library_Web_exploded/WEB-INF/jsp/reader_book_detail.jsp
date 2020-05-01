@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -41,14 +42,14 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
             <div class="container-fluid">
-                <h2 class="h5 no-margin-bottom">Reader</h2>
+                <h2 class="h5 no-margin-bottom">图书详情</h2>
             </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Reader</a></li>
-                <li class="breadcrumb-item active">Tables        </li>
+                <li class="breadcrumb-item"><a href="index.html">图书查询</a></li>
+                <li class="breadcrumb-item active">图书详情        </li>
             </ul>
         </div>
         <section class="no-padding-top">
@@ -89,7 +90,7 @@
                             </tr>
                             <tr>
                                 <th>出版日期</th>
-                                <td>${detail.pubdate}</td>
+                                <td><fmt:formatDate value="${detail.pubdate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                             </tr>
                             <tr>
                                 <th>分类号</th>

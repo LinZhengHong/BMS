@@ -41,14 +41,14 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
             <div class="container-fluid">
-                <h2 class="h5 no-margin-bottom">Reader</h2>
+                <h2 class="h5 no-margin-bottom">密码修改</h2>
             </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Reader</a></li>
-                <li class="breadcrumb-item active">Tables        </li>
+                <li class="breadcrumb-item"><a href="index.html">我的管理</a></li>
+                <li class="breadcrumb-item active">密码修改       </li>
             </ul>
         </div>
         <section class="no-padding-top">

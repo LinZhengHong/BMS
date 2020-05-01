@@ -55,13 +55,43 @@
             </ul>
         </div>
         <section class="no-padding-top">
+            <%--多条件搜索--%>
             <div class="block">
                 <form method="post" action="querybook.html" class="form-inline"  id="searchform">
                     <div class="input-group">
                         <input type="text" placeholder="输入图书名" class="form-control" id="search" name="searchWord">
                         <span class="input-group-btn">
-                            <input type="submit" value="搜索" class="btn btn-primary">
+                            <input type="submit" value="搜索" class="btn btn-dark btn-2">
                         </span>
+                    </div>
+                    <div class="form-group block">
+                        <label>
+                            <select class="custom-select bg-dark">
+                                <option class="text-primary" selected>根据分类号</option>
+                                <option class="text-primary" value="1">马克思主义</option>
+                                <option class="text-primary" value="2">哲学</option>
+                                <option class="text-primary" value="3">社会科学总论</option>
+                                <option class="text-primary" value="4">政治法律</option>
+                                <option class="text-primary" value="5">军事</option>
+                                <option class="text-primary" value="6">经济</option>
+                                <option class="text-primary" value="7">文化</option>
+                                <option class="text-primary" value="8">语言</option>
+                                <option class="text-primary" value="9">文学</option>
+                                <option class="text-primary" value="10">艺术</option>
+                                <option class="text-primary" value="11">历史地理</option>
+                                <option class="text-primary" value="12">自然科学总论</option>
+                                <option class="text-primary" value="13"> 数理科学和化学</option>
+                                <option class="text-primary" value="14">天文学、地球科学</option>
+                                <option class="text-primary" value="15">生物科学</option>
+                                <option class="text-primary" value="16">医药、卫生</option>
+                                <option class="text-primary" value="17">农业科学</option>
+                                <option class="text-primary" value="18">工业技术</option>
+                                <option class="text-primary" value="19">交通运输</option>
+                                <option class="text-primary" value="20">航空、航天</option>
+                                <option class="text-primary" value="21">环境科学</option>
+                                <option class="text-primary" value="22">综合</option>
+                            </select>
+                        </label>
                     </div>
                 </form>
                 <script>
@@ -99,15 +129,15 @@
                     <table class="table table-hover">
                         <thead>
                         <tr>
-                            <th>书名</th>
-                            <th>作者</th>
-                            <th>出版社</th>
-                            <th>ISBN</th>
-                            <th>价格</th>
-                            <th>剩余数量</th>
-                            <th>详情</th>
-                            <th>编辑</th>
-                            <th>删除</th>
+                            <th class="text-primary">书名</th>
+                            <th class="text-primary">作者</th>
+                            <th class="text-primary">出版社</th>
+                            <th class="text-primary">ISBN</th>
+                            <th class="text-primary">价格</th>
+                            <th class="text-primary">剩余数量</th>
+                            <th class="text-primary">详情</th>
+                            <th class="text-primary">编辑</th>
+                            <th class="text-primary">删除</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -120,17 +150,17 @@
                                 <td><c:out value="${book.price}"></c:out></td>
                                 <td class="text-center"><c:out value="${book.number}"></c:out></td>
                                 <td><a href="admin_book_detail.html?bookId=<c:out value="${book.bookId}"></c:out>">
-                                    <button type="button" class="btn btn-success btn-xs">详情</button>
+                                    <button type="button" class="btn btn-dark btn-xs">详情</button>
                                 </a></td>
-                                <td><a href="updatebook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
-                                <td><a href="deletebook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+                                <td><a href="updatebook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-dark btn-xs">编辑</button></a></td>
+                                <td><a href="deletebook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-dark btn-xs">删除</button></a></td>
                             </tr>
                         </c:forEach>
                         </tbody>
                     </table>
                     <div class="mt-3">
                         <%--分页--%>
-                        <nav class="Page navigation ">
+                        <nav class="Page navigation">
                             <ul class="pagination justify-content-center">
                                 <li class="page-item">
                                     <a class="page-link" href="admin_books.html?pageNum=1" tabindex="-1" aria-disabled="true">首页</a>
@@ -171,6 +201,8 @@
     </div>
 </div>
 
+<script src="${pageContext.request.contextPath}/static/js/anime.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
 
 </body>
 </html>

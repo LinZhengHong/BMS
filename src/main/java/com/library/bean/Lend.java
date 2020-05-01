@@ -11,6 +11,16 @@ public class Lend implements Serializable {
     private Date lend_date;
     private Date back_date;
 
+    private Book book;
+
+    public Book getBook() {
+        return book;
+    }
+
+    public void setBook(Book book) {
+        this.book = book;
+    }
+
     public long getReaderId() {
         return reader_id;
     }

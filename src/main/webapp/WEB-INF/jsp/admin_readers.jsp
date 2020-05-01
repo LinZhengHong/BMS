@@ -106,8 +106,8 @@
                                 <td><fmt:formatDate value="${reader.birth}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td><c:out value="${reader.address}"></c:out></td>
                                 <td><c:out value="${reader.phone}"></c:out></td>
-                                <td><a href="reader_edit.html?readerId=<c:out value="${reader.readerId}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
-                                <td><a href="reader_delete.html?readerId=<c:out value="${reader.readerId}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+                                <td><a href="reader_edit.html?readerId=<c:out value="${reader.readerId}"></c:out>"><button type="button" class="btn btn-dark btn-xs">编辑</button></a></td>
+                                <td><a href="reader_delete.html?readerId=<c:out value="${reader.readerId}"></c:out>"><button type="button" class="btn btn-dark btn-xs">删除</button></a></td>
                             </tr>
                         </c:forEach>
                         </tbody>

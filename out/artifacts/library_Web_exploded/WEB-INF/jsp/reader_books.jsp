@@ -58,7 +58,7 @@
                     <div class="input-group">
                         <input type="text" placeholder="输入图书名" class="form-control" id="search" name="searchWord">
                         <span class="input-group-btn">
-                            <input type="submit" value="搜索" class="btn btn-danger"/>
+                            <input type="submit" value="搜索" class="btn btn-dark"/>
                         </span>
                     </div>
                 </form>
@@ -94,7 +94,7 @@
             </div>
             <div class="panel panel-default" style="width: 100%;">
 
-                <div class="panel-body">
+                <div class="panel-body block">
                     <table class="table table-hover">
                         <thead>
                         <tr>
@@ -137,12 +137,12 @@
                                     </c:if>
                                     <c:if test="${book.number==0}">
                                         <td>
-                                            <button type="button" class="btn btn-defalut btn-xs" disabled="disabled">已空</button>
+                                            <button type="button" class="btn btn-dark btn-xs" disabled="disabled">已空</button>
                                         </td>
                                     </c:if>
                                 </c:if>
                                 <td><a href="reader_book_detail.html?bookId=<c:out value="${book.bookId}"></c:out>">
-                                    <button type="button" class="btn btn-success btn-xs">详情</button>
+                                    <button type="button" class="btn btn-dark btn-xs">详情</button>
                                 </a></td>
                             </tr>
                         </c:forEach>

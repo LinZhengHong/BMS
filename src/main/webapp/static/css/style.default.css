@@ -2354,8 +2354,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-success.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.2);
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.2);
 }
 
 .btn-info {
@@ -2390,8 +2390,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-info.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.2);
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.2);
 }
 
 .btn-warning {

@@ -40,14 +40,14 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
             <div class="container-fluid">
-                <h2 class="h5 no-margin-bottom">Reader</h2>
+                <h2 class="h5 no-margin-bottom">Home</h2>
             </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Reader</a></li>
-                <li class="breadcrumb-item active">Tables        </li>
+                <li class="breadcrumb-item"><a href="index.html">读者</a></li>
+                <li class="breadcrumb-item active">Home        </li>
             </ul>
         </div>
         <section class="no-padding-top">
@@ -55,13 +55,13 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="line-chart block chart">
-                            <div class="title"><strong>Line Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <canvas id="lineChartCustom1"></canvas>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="lin-chart block chart">
-                            <div class="title"><strong>Line Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <div class="line-chart chart margin-bottom-sm">
                                 <canvas id="lineChartCustom2"></canvas>
                             </div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="chart block">
-                            <div class="title"> <strong>Bar Chart Example</strong></div>
+                            <div class="title"> <strong>😀</strong></div>
                             <div class="bar-chart chart margin-bottom-sm">
                                 <canvas id="barChartCustom1"></canvas>
                             </div>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="bar-chart block chart">
-                            <div class="title"><strong>Bar Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <div class="bar-chart chart">
                                 <canvas id="barChartCustom3"></canvas>
                             </div>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="pie-chart chart block">
-                            <div class="title"><strong>Pie Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <div class="pie-chart chart margin-bottom-sm">
                                 <canvas id="pieChartCustom1"></canvas>
                             </div>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="doughnut-chart chart block">
-                            <div class="title"><strong>Pie Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <div class="doughnut-chart chart margin-bottom-sm">
                                 <canvas id="doughnutChartCustom1"></canvas>
                             </div>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="polar-chart chart block">
-                            <div class="title"><strong>Polar Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <div class="polar-chart chart margin-bottom-sm">
                                 <canvas id="polarChartCustom"></canvas>
                             </div>
@@ -115,7 +115,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="radar-chart chart block">
-                            <div class="title"><strong>Radar Chart Example</strong></div>
+                            <div class="title"><strong>😀</strong></div>
                             <div class="radar-chart chart margin-bottom-sm">
                                 <canvas id="radarChartCustom"></canvas>
                             </div>

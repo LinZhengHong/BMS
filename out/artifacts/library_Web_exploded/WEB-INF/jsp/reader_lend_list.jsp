@@ -74,21 +74,23 @@
                 </c:if>
             </div>
 
-            <div class="panel panel-default block" style="width: 90%;margin-left: 5%;margin-top: 5%">
+            <div class="panel panel-default block" style="width: 90%;">
                 <div class="panel-body">
                     <table class="table table-hover">
                         <thead>
                         <tr>
-                            <th>图书号</th>
-                            <th>借出日期</th>
-                            <th>归还日期</th>
-                            <th>状态</th>
+                            <th class="text-primary">图书号</th>
+                            <th class="text-primary">书名</th>
+                            <th class="text-primary">借出日期</th>
+                            <th class="text-primary">归还日期</th>
+                            <th class="text-primary">状态</th>
                         </tr>
                         </thead>
                         <tbody>
                         <c:forEach items="${list}" var="alog">
                             <tr>
                                 <td><c:out value="${alog.bookId}"></c:out></td>
+                                <td><c:out value="${alog.book.name}"></c:out></td>
                                 <td><fmt:formatDate value="${alog.lendDate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <td><fmt:formatDate value="${alog.backDate}" pattern="yyyy-MM-dd"></fmt:formatDate></td>
                                 <c:if test="${empty alog.backDate}">

@@ -12,14 +12,12 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
-import java.lang.reflect.Method;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -46,19 +44,8 @@ public class BookController {
         }
     }
 
-    /*@RequestMapping("/querybook.html")
-    public ModelAndView queryBookDo(String searchWord) {
-        if (bookService.matchBook(searchWord)) {
-            ArrayList<Book> books = bookService.queryBook(searchWord);
-            ModelAndView modelAndView = new ModelAndView("admin_books");
-            modelAndView.addObject("books", books);
-            return modelAndView;
-        } else {
-            return new ModelAndView("admin_books", "error", "没有匹配的图书");
-        }
-    }*/
 
-    @ApiOperation(value = "根据searchWord查询书籍",notes = "需要传searchWord",httpMethod = "GET")
+    @ApiOperation(value = "管理员根据searchWord查询书籍",notes = "需要传searchWord",httpMethod = "GET")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "pageNum", value = "页码",required = true, dataType = "int"),
             @ApiImplicitParam(name = "pageSize", value = "页面显示的数量", required = true, dataType = "int"),
@@ -92,13 +79,6 @@ public class BookController {
         }
     }
 
-    /*@RequestMapping("/admin_books.html")
-    public ModelAndView adminBooks() {
-        ArrayList<Book> books = bookService.getAllBooks();
-        ModelAndView modelAndView = new ModelAndView("admin_books");
-        modelAndView.addObject("books", books);
-        return modelAndView;
-    }*/
 
     @ApiOperation(value = "查询所有图书",notes = "查询的图书具有分页功能",httpMethod = "GET")
     @RequestMapping("/admin_books.html")
@@ -174,6 +154,17 @@ public class BookController {
     public ModelAndView reader_header() {
         return new ModelAndView("reader_header");
     }
+
+
+
+    /*public ModelAndView adminBooks(@RequestParam(value="pageNum",defaultValue="1") Integer pageNum,
+                                   @RequestParam(value="pageSize",defaultValue="6")Integer pageSize) {
+        PageInfo<Book> pageInfo=bookService.getPageBooks(pageNum,pageSize);
+        ModelAndView modelAndView = new ModelAndView("admin_books");
+        modelAndView.addObject("pageInfo", pageInfo);
+        return modelAndView;
+    }*/
+
 
     @RequestMapping("/reader_books.html")
     public ModelAndView readerBooks(HttpServletRequest request) {

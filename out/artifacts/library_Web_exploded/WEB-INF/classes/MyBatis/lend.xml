@@ -15,12 +15,32 @@
     <update id="lendBookTwo" parameterType="long">
         update book_info set number = number - 1 where book_id = #{book_id}
     </update>
-    <select id="lendList" resultType="com.library.bean.Lend">
+    <!--<select id="lendList" resultType="com.library.bean.Lend">
         select * from lend_list
+    </select>-->
+    <select id="lendList" resultMap="lendListResultMap">
+        select l.*,b.name from lend_list l, book_info b where l.book_id=b.book_id
     </select>
-    <select id="myLendList" resultType="com.library.bean.Lend" parameterType="long">
+
+    <!--<select id="myLendList" resultType="com.library.bean.Lend" parameterType="long">
         select * from lend_list where reader_id = #{reader_id}
+    </select>-->
+
+    <select id="myLendList" resultMap="lendListResultMap" parameterType="long">
+        select l.*,b.name from lend_list l, book_info b where l.book_id=b.book_id and l.reader_id=#{reader_id}
     </select>
+    <resultMap id="lendListResultMap" type="com.library.bean.Lend">
+        <id property="ser_num" column="ser_num"/>
+        <result property="book_id" column="book_id"/>
+        <result property="reader_id" column="reader_id"/>
+        <result property="lend_date" column="lend_date"/>
+        <result property="back_date" column="back_date"/>
+        <association property="book" javaType="com.library.bean.Book">
+            <id property="book_id" column="book_id"/>
+            <result property="name" column="name"/>
+        </association>
+    </resultMap>
+
     <delete id="deleteLend" parameterType="long">
         delete from lend_list where ser_num = #{ser_num}
     </delete>

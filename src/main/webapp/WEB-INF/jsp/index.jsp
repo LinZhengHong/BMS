@@ -77,7 +77,7 @@
                                     <input id="remember" type="checkbox" required value="1"  class="checkbox-template">
                                     <label for="remember">记住密码</label>
                                 </div>
-                                <p style="text-align: right;color: red;position: absolute" id="info"></p><br/>
+                                <p id="info" class="text-primary"></p>
                                 <button id="loginButton" type="submit" class="btn btn-primary">登录</button>
                             <%--</form>--%>
                         </div>
